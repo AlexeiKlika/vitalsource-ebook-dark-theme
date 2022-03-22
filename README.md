@@ -2,9 +2,9 @@
 At Purdue Global Unversity, we use vitalsource online ebooks for many of our textbooks. This CSS override is my attempt at making my reading experience a bit more enjoyable on my desktop and laptop. 
 
 ## Notes on Dark Theme
--Overrides CSS styles with Chrome Extension *Stylebot*
--Only applies custom CSS to vitalsource reader web pages
--CSS suitable for desktop screen resolutions
+- Overrides CSS styles with Chrome Extension *Stylebot*
+- Only applies custom CSS to vitalsource reader web pages
+- CSS suitable for desktop screen resolutions
 
 ## How to Use Dark Theme
 1. Install *Stylebot* Chrome extension
