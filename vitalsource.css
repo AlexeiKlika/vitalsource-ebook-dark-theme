@@ -1,0 +1,170 @@
+/* 
+Style notes:
+
+Primary color: #BB86FC
+Primary lighter: ##985eff;
+Vibrant Color: #3700B3
+Secondary Color:#03DAC5
+Error:  #CF6679 
+Background: #292929
+Lighter Background: #444
+Font Color: #eee;
+Contrasting title color:  #ffa465;
+
+*/
+
+body {
+	margin:2em;
+	scrollbar-color: dark;
+}
+
+mosaic-book {
+    max-width: 800px;
+}
+
+.vsthighlight {
+    background-color: #6d6e5d !important;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.35em;
+    padding: 0 0 1em 0;
+    text-align: justify;
+}
+
+body, div, ul {
+	background:#222;
+	color:#eee;
+	scrollbar-color: dark;
+}
+
+
+a, th, .b1numlist, .b1textfl {
+	color:#eee !important;
+}
+
+th p {
+    font-size: 12px !important;
+}
+
+a.ulink, a.xref, a.email {
+    text-decoration: none;
+    color: #b1c15a;
+}
+
+*, *:before, *:after {
+    font-family: Roboto, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div.tip, div.note {
+    border: 1px solid #838383;
+}
+
+button, .jvRMle, span, div.figure p.title{
+	color:#eee;
+}
+
+button:hover{
+	background:transparent;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #292929;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #292929;
+}
+
+tr:nth-of-type(even) {
+    background-color: #3c3f42 !important;
+}
+
+table td p, table td {
+    font-size: 12px !important;
+}
+
+/* Hide inline page number because they don't flow well */
+.pgnum {
+	display: none;
+}
+
+figure.fig {
+	margin-left: 0;
+    margin-right: 0;
+}
+
+figure.fig img {
+	max-width: 100%;
+}
+
+/* small adjustments to colors */
+#CN {
+	border-top-color: #BB86FC !important;
+}
+#PN {
+	border-top-color: #BB86FC !important;
+}
+
+h1{
+	color: #BB86FC !important;
+}
+
+h2, h3 {
+	color:#03DAC5 !important;
+}
+
+h4, .h3after2, .tnum {
+	color: #985eff !important;
+}
+
+p.reflist, p.reflist1 {
+	font-size: 80% !important;
+}
+
+.bcKIIN {
+	fill: #BB86FC !important;
+}
+
+.cVpJba {
+	border-right: 8px solid #BB86FC  !important;
+}
+
+.partoutlhd {
+	border-bottom-color: #03DAC5 !important;
+	color: #03DAC5 !important;
+}
+.b1title, .b1quote, .b1quoteau {
+	color: #ffa465 !important;
+}
+
+button, .jvRMle, span, div.figure p.title {
+    color: #eee !important;
+}
+
+/*right gutter CSS */
+ul.gutter {
+	transform: translateY(20px) !important;
+}
+
+ul.gutter li{
+	transform: none !important;
+	position: relative !important;
+}
+
+/* light bg color for practice question feedback fields */
+.sc-BOulX span > span > span {
+    background-color: #444 !important;
+}
