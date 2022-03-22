@@ -9,7 +9,7 @@ CSS suitable for desktop screen resolutions
 ## How to Use Dark Theme
 1. Install *Stylebot* Chrome extension
 2. Go to Stylebot options, then add new style for URL **^.*vitalsource\.com\/(reader|book|mosaic).*$**
-3. Add all CSS from vitalsource.css](/vitalsource.css)
+3. Add all CSS from [vitalsource.css](/vitalsource.css)
 4. Save changes, and load vitalsource ebook. 
 
 ## Theme Screenshot
